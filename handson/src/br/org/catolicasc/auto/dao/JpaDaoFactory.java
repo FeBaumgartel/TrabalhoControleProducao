@@ -10,11 +10,23 @@ public class JpaDaoFactory {
 		return instance;
 	}
 	
-	public ContatoDao getContatoDao() {
-		return new ContatoDao();
+	public OrdensDao getOrdensDao() {
+		return new OrdensDao();
 	}
 	
-	public PessoaDao getPessoaDao() {
-		return new PessoaDao();
+	public PostoProducaoDao getPostoProducaoDao() {
+		return new PostoProducaoDao();
+	}
+	
+	public ProdutoDao getProdutoDao() {
+		return new ProdutoDao();
+	}
+	
+	public StatusDao getStatusDao() {
+		return new StatusDao();
+	}
+	
+	public RegistroProducaoDao getRegistroProducaoDao() {
+		return new RegistroProducaoDao();
 	}
 }
